@@ -7,6 +7,10 @@
     <title>Email Template</title>
   </head>
   <body>
+
+      <input type="text" id="autoFillName" placeholder="Recipient's Name" />
+      <button onclick="autoFillRecipientName()">Auto Fill</button>
+    
     <div class="container">
       <div class="container1">
         <div class="image-container">
@@ -15,7 +19,7 @@
       </div>
 
       <div class="details">
-        <span class="bande-ka-naam">[your-name]</span>
+        <span class="bande-ka-naam" id="recipient-name">[your-name]</span>
         <p class="description">
           has unitedly joined hands with us in the devotion for Shri Ram, did
           you?
@@ -45,7 +49,12 @@
         <a
           href="www.handweavingrevival.com"
           target="_blank"
-          style="margin-bottom: 26px; color: orangered; text-decoration: none; font-size: large;"
+          style="
+            margin-bottom: 26px;
+            color: orangered;
+            text-decoration: none;
+            font-size: large;
+          "
           >www.handweavingrevival.com</a
         >
       </div>
@@ -59,5 +68,10 @@
         </footer>
       </div>
     </div>
+    <div style="top: 0; position: sticky; background: white; text-align: center;" >
+      <input type="text" id="autoFillName" placeholder="Recipient's Name" />
+      <button onclick="autoFillRecipientName()">Auto Fill</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
