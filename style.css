@@ -9,8 +9,8 @@ body html {
   
   .container {
     margin: 0 auto;
-    max-width: 800px;
-    background-image: url(template.png);
+    max-width: 830px;
+    background-image: url("https://dodhaageshreeramkeliye.in/wp-content/uploads/2023/10/template.png");
     height: auto;
     border: 1px solid black;
     display: flex;
@@ -26,7 +26,7 @@ body html {
   }
   
   .container1 .image-container {
-    width: 800px;
+    width: 830px;
     height: 100%;
     overflow: hidden;
   }
@@ -104,8 +104,8 @@ body html {
   }
   
   .date {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 24px;
     padding: 20px;
     text-align: center;
@@ -114,7 +114,7 @@ body html {
     font-family: 'Hind', sans-serif;
   }
   .date1 {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 26px;
     font-size: 24px;
     color: #7b0e04;
